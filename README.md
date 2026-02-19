@@ -8,11 +8,11 @@ Our application contributes to this goal by:
 By developing this prototype, we aim to demonstrate how innovative applications can play an important role in achieving sustainable development and improving quality of life for individuals and communities.
 
 Team Members
--
--
--
--
--
+- Scrum Master : Ivan
+- Product Owner : Bradley
+- Designer : Joshua
+- Developer : Ariz
+- Tester : Eu Kit
 
 Project Description
 
