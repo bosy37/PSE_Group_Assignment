@@ -15,6 +15,7 @@ Team Members
 -
 
 Project Description
+
 Our project is a prototype application called WatchTower that are designed to help communities improve living and promote sustainability in cities. This application focuses on addressing challenges commonly we faced in modern cities such as inefficient resource usage, environmental issues and limited access to community information.
 
 The main purpose of this app is to provide a user-friendly platform where citizens can easily access city related services and information. Key features of the application may include:
