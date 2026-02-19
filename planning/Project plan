@@ -3,8 +3,26 @@
 
 2. SDG Chosen
 - SDG 11: Sustainable Cities and Communities
+
 3. Team Roles 
+Chen Jun Ren	Project Manager	     Oversees progress, coordinates sprints, manages team meetings
+[Member 2]	  Frontend Developer	 Designs UI, implements prototype screens
+[Member 3]	  Backend Developer	   Manages data, login system, recycling logs
+[Member 4]	  UX/UI Designer	     Designs app layout, user flow, and interactive elements
+[Member 5]	  Quality Assurance	   Tests features, ensures app functionality
+
 4. Week Timeline
-5. Tools Used
+Week 1: Planning & Research	Finalize app features, SDG alignment, create wireframes
+Week 2: Prototype Development	Build initial interactive prototype, basic UI screens
+Week 3: Functionality Implementation	Add login system, recycling logs, campus map integration
+Week 4: Testing & Finalization	Test app, fix bugs, refine UI, prepare demo and report
+
+5. Trello Link
+https://trello.com/invite/b/6995a651d4b38792b8fd409f/ATTI8b043f8ede93736e037c159942a27c1246F62544/pse-group-assignment
+
 6. Team Collaboration Plan
+- Weekly meetings via Microsoft Teams for updates
+- Trello for task assignment and progress tracking
+- GitHub for collaborative coding and version control
+- Figma (or chosen tool) for shared prototype development
 
