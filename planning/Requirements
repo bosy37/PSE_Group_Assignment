@@ -1,4 +1,96 @@
-1. User Stories/Features
+A. User Stories
+User Features
+•	Account Registration/Login: Through the traditional pairing (email address/phone number/username + personalized platform password), or directly through social platforms such as Gmail, Facebook or Instagram with verification algorithm.
+•	Manage Profile: Setting features that allow users to change their username, password, bind account, phone number, email address etc.).
+•	Submit Report: For users to instantaneously report the issues encountered while passing by the locations.
+•	Upload Photos: For more visual representation of the problem occurred.
+•	Manage fault report: To delete or edit the report once realized inaccuracies between the description and actual situation.
+•	View nearby faulty facilities on map: Allow real time updates of the situation around user through tracking user of user and the report made.
+•	Upvote Post: For the usage of passing by user that encounters same problem with the facilities.
+•	Give Feedback: For user to give their opinion and satisfaction on the follow up progress of the problem. Whether it needs to be reissued or is resolved perfectly.
+•	Receive notifications: Warning user for nearby hazard, updating the progress of the problem nearby and general announcements for global users.
 
-2. Functional Requirements
-3. Non-Functional Requirements
+Admin Features
+•	Account Login: Allow full access to the application in the administrative dashboard.
+•	View Faulty Facilities on Map: Allow administrator to view the issues reported on a broader scale (by state, city, country) and increase the efficiency of the work assignment.
+•	Manage Reports: Categorizing the facility issues and removing the duplication, ensuring organized information for both user and city workers.
+•	Verify Reports: Verification step that ensures the credibility of the report, removing the possibility of hoax report, crime syndicate or misuse of platform.
+•	Assigning priority level: Ensuring that the problem that is encountered by most users is solved first (according to number of upvote) to prevent major accidents happening in a high-density population area.
+•	Manage city worker accounts: Controlling the operation flow of manpower (city worker) with a uniform standard and portal to prevent miscommunication.
+•	Generate maintenance report: For future strategizing, critical aspect identification and estimate the fund/facilities required for the city council
+•	Send alerts and announcements: To give latest information about the faulty facilities and operations of the platform to both users and city workers.
+
+
+City Worker Features
+•	Account Login: Granted access as the employee to the platform that are consistently receiving jobs and tracked according to working hours.
+•	View Assigned maintenance tasks: Allow city workers to have further understanding of the details and location of the task that is assigned to them currently.
+•	Navigation to faulty locations: Directing city workers towards the location with the fastest possible route (similar algorithm to Waze and google maps).
+•	Tracking working hours: An indicator that measures their performance, efficiency and salary while working as an employee on the platform.
+•	Update repair status: For city workers to easily notify the administrator and user regarding the progress of the reported faulty facilities and further actions taken (road closure, road reopened).
+•	Upload completion evidence: To show the completed work as a proof and record of completion, also shows their accountability to the platform user and administrator.
+
+B. Functional Requirements
+User
+1.	The system shall allow users to sign up an account if they wish to create a new account.
+2.	The system shall allow users to log in using an account if their account exists in the database.
+3.	The system shall allow users to manage their profile according to their preference (edit name, email address, password, profile picture)
+4.	The system shall display a map of user surroundings according to their current location.
+5.	The system shall allow users to view nearby faulty facilities on the map of their current surroundings.
+6.	The system shall allow users to view a list of nearby reports in text form.
+7.	The system shall allow users to upvote existing reports if they encounter same problems in the location.
+8.	The system shall send notifications to users (nearby hazard alerts, general announcements, job progress)
+9.	 The system shall allow users to submit a new report of faulty facilities.
+10.	The system shall allow users to upload photos along with the report.
+11.	The system shall automatically detect and attach user GPS real-time location to the report.
+12.	The system shall allow users to view the status of their reports (Pending, in progress, resolved)
+13.	The system shall allow users to give feedback after a report is resolved.
+14.	The system shall allow users to edit the content of their own report.
+15.	The system shall allow users to delete their own reports.
+
+Admin
+1.	The system shall allow the admin to log in to the administrative dashboard.
+2.	The system shall allow admin to view maps (filtered by country, state)
+3.	The system shall allow admins to view faulty facilities reports submitted by users on the map.
+4.	The system shall allow admin to verify reports before processing.
+5.	The system shall allow admin to merge duplicate reports with a user for a more organized database.
+6.	The system shall allow admin to set priority level based on the number of upvotes by users.
+7.	The system shall allow the admin to assign jobs to the city worker based on the nearest location.
+8.	The system shall allow the admin to generate reports (Daily, Weekly, Monthly, Annually) for future improvements and strategizing.
+9.	The system shall allow the admin to send notifications (job alert for city workers, hazard alert for the user nearby, general announcement).
+10.	The system shall allow the admin to update city facility information.
+11.	The system shall allow the admin to manage the access of city workers.
+12.	The system shall allow the admin to create worker account.
+13.	The system shall allow the admin to edit the information on workers’ accounts (home address, phone number, payment account).
+14.	The system shall allow the admin to remove worker accounts (retirement, resignation, termination).
+15.	The system shall allow the admin to activate/deactivate worker accounts (on leave, sick leave, reinstatement).
+16.	The system shall allow the admin to view the worker status for further procedural (available, busy).
+17.	The system shall allow the admin to view worker performance (job completed, hours worked) for future actions (bonus, increment, penalization, promotion).
+
+
+City Worker
+1.	The system shall allow city workers to log in to their accounts.
+2.	The system shall allow city workers to view the jobs assigned to them.
+3.	The system shall allow city workers to view the job details (facilities specific problems, tools needed, manpower needed, estimated duration).
+4.	The system shall allow city workers to view the navigation towards the location.
+5.	The system shall allow city workers to track their accumulated hours.
+6.	The system shall allow city workers to update job status (Started, in progress, Insufficient resources, Unsolvable, Completed).
+7.	The system shall allow city workers to upload latest photos that serve as proof of work.
+
+
+
+
+C. Non-Functional Requirements
+System should require authentication for all users before accessing personal features
+System shall encrypt user passwords
+System should make sure that all user interface pages load are less than 3 seconds under normal network conditions
+System shall process report submissions within 2 to 3 seconds after user confirmation
+System are able to backup data daily
+System are available 24/7 except during maintenance period
+The system shall implement role-based access control to ensure that only authorized users, including administrators and city workers, can access functions according to their assigned roles.
+Data shall not be lost during unexpected shutdown
+System shall provide user friendly interface that is easy to navigate for all user roles
+New users shall be able to understand main features within 5  minutes without training
+The system shall provide clear icons, labels and instructions to assist users in completing tasks
+Scheduled maintenance shall be announced in advance to users
+Systems are able be scalable to support increasing numbers of users and reports in the future
+System updates shall not significantly interrupt normal operations
