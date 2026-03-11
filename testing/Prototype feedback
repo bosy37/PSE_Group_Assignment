@@ -1,6 +1,10 @@
 # User Testing & Feedback
 
 # Key Feedback
+
+#SPRINT 1#
+In Sprint 1 the feedback mainly focuesd on the core functionality, the basic report flow, and also the map visualization.
+
 User 1:
 1. During the writing of the report, the user noted that having to type the whole address was tedious and wanted there to be an "Auto-detect location" feature.
 2. The user liked the ability to take a photo directly in the app but asked for a Gallery option so that they can report an issue that they photogrpahed earlier in the day.
@@ -10,3 +14,27 @@ User 2:
 1. The user stated that seeing a lot of pin pointed reports on the map was overwhelming so they suggested that to add a priority filter based on how serious the report actually is. 
 2. The user found the map view with all the reported pins helpful, but the user suggested that when a pin is clicked it should show the attached photo immediately without opening a new page.
 3. The user stated that they would like to edit their report just in case they made a mistake and have already submitted the report.
+
+#SPRINT 2#
+In Sprint 2 focuses more on the developing features and how the information flows between different roles mainly focusing on the City Worker and Admin.
+
+City Worker 1:
+1. The City Worker noted that while they can see "Today's Progression", they suggested that they would also like a "Job History" tab to see what jobs they have already accomplished.
+2. The City Worker was fond of the address list but they requested for a "Navigate" button that links directly to the map so it was easier to locate the issue.
+3. The City Worker suggested that they should have to upload a photo for visual proof after they have resolved the issue to ensure accountability.
+
+Admin 1:
+1. The Admin suggested that before the report goes live, they should be able to verify the report in case any duplicates or prank submissions.
+2. The Admin suggested that they should be able to see how much work is distributed to each City Worker in order to maintain an even work distribution.
+3. The Admin requested to have the ability to have a "Send Notification" feature that allows them to notify sepcific City Workers if there are any changes in their assigned jobs.
+
+#SPRINT 3#
+In Sprint 3 is the "User Acceptance" phase where everything comes together. It is the final validation.
+
+Admin 2 & User 3:
+1. The Admin noted that getting to manage each worker is great, but they requested a way to see which worker was closest to the new report in order to save travel time.
+2. The User suggested that they should have the ability to print the report out as a PDF.
+
+City Worker 2:
+1. The City Worker noted they wanted to have a box that shows their total hours contributed as a worker.
+2. The City Worker suggested they should be able to interact with the assigned job not only to submit the job once it was resolved, but to also see the details of the assigned job.
