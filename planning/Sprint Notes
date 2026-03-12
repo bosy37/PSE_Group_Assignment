@@ -1,33 +1,85 @@
-Sprint 1 Notes
-Sprint Goal
+#Sprint 1 Notes#
+Sprint Goal:
 To complete the requirement analysis by identifying functional and non-functional requirements, defining system actors, assigning team roles, developing the Use Case Diagram, and creating initial wireframes based on the defined use cases.
 
-Sprint Duration
-Week 1 – Week 3
+Sprint Duration:
+Week 1 
 
-Tasks Selected
+Tasks Selected:
 1.Conduct requirement analysis
 2.Identify functional and non-functional requirements
 3.Define system actors
 4.Assign team roles
 5.Draw Use Case Diagram
 6.Create wireframes according to use case diagram
-7.Set up GitHub repository
-8.Create Trello board
+7.Initialize the GitHub repository and Trello board
 
-Work Completed
+Work Completed:
 During this sprint, the team successfully completed the requirement analysis and identified both functional and non-functional requirements. System actors were clearly defined and represented in the Use Case Diagram.
 We also assigned team roles based on individual strengths. The GitHub repository and Trello board were set up to support project tracking and version control. Additionally, initial wireframes were created according to the interactions shown in the Use Case Diagram.
 
-Challenges Faced
+Challenges Faced:
 The team found it challenging to unify and finalise the Use Case Diagram due to different interpretations of system functionalities. Communication during the wireframe design process was initially unclear. Furthermore, most team members were using Figma for the first time, which required additional time to learn and slowed down the design process.
 
 Sprint Retrospective
 What went well:
 Team members were cooperative and actively participated in discussions. Responsibilities were distributed clearly, and everyone contributed to completing the sprint tasks.
 
-What didn’t go well:
-Time estimation was inaccurate, and some tasks took longer than expected, especially learning new tools like Figma.
-
 Improvement for Next Sprint:
 We will break larger tasks into smaller subtasks for better time estimation and manage our time more efficiently. We will also improve communication during design discussions to avoid misunderstandings.
+
+
+
+
+#Sprint 2 Notes#
+Sprint Goal:
+Refine the UI bassed on the feedback and develop the Class Diagram.
+
+Sprint duration:
+week 2 - Mid-week 3
+
+Tasks Selected:
+1.Update the wireframes based on the feedback
+2.Create Class Diagram
+3.Refine the Admin interface for better usability
+4.Organize the design folder in GitHub for better asset management
+
+Work Completed:
+We imporved out wireframes and the Class Diagram was completed, which provided a clear flow of data of the system's data structure. We specifically improved the Admin UI to ensure that it's more well defined.
+
+Challenge Faced:
+Balancing the complexity of the Class Diagram with the simplified UI was difficult. Moreover, deciding what should be added to the Admin wireframe and what shouldn't was also a major challenge.
+
+Sprint 2 Retrospective
+What went well:
+We uderstood how to use Figma much better and we also had a clearer idea of what additions we should make.
+
+Improvement for Next Sprint:
+Ensure that all design changes are pushed to the repository immediately to avoid any version conflicts when moving on to the next sprint.
+
+
+
+
+#Sprint 3 Notes#
+Sprint Goal:
+Finalize all our documentation, polish the multimedia assets, and also preapre for the project presentation. Furthermore, we need to ensure all wireframes are final and the report is in development.
+
+Sprint Duration:
+Mid-week 3 - Week 4
+
+Tasks Selected:
+1.Final review of all diagram - Class, Use Case, and Wireframes, ensuring it meets all the user requirements
+2.Prepare final presentation and report
+
+Work Completed:
+All design assets are all now finalized at this point and are put in the desing folder in GitHub. The presentation preparation was also done during this period.
+
+Challenges:
+Having to present a reasonably large project in 12 minutes was found as a challenge because we had a lot of wireframes to deal with.
+
+Sprint 3 Retrospective
+What went well:
+The project was completed within the due date and was satisfied with the UI design.
+
+Next Step:
+Presentations and report writing
